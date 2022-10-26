@@ -1,0 +1,37 @@
+{
+    "Table": {
+        "TableArn": "arn:aws:dynamodb:us-east-1:938697498897:table/votes", 
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "statementCreatorId", 
+                "AttributeType": "S"
+            }, 
+            {
+                "AttributeName": "statementId", 
+                "AttributeType": "N"
+            }
+        ], 
+        "ProvisionedThroughput": {
+            "NumberOfDecreasesToday": 0, 
+            "WriteCapacityUnits": 1, 
+            "ReadCapacityUnits": 1, 
+            "LastDecreaseDateTime": 1664585791.559
+        }, 
+        "TableSizeBytes": 363, 
+        "TableName": "votes", 
+        "TableStatus": "ACTIVE", 
+        "TableId": "28864429-5028-4366-abb3-8a56e11eda10", 
+        "KeySchema": [
+            {
+                "KeyType": "HASH", 
+                "AttributeName": "statementCreatorId"
+            }, 
+            {
+                "KeyType": "RANGE", 
+                "AttributeName": "statementId"
+            }
+        ], 
+        "ItemCount": 3, 
+        "CreationDateTime": 1664584985.708
+    }
+}

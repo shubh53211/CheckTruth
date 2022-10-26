@@ -1,0 +1,29 @@
+{
+    "Table": {
+        "TableArn": "arn:aws:dynamodb:us-east-1:938697498897:table/voters", 
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "voterId", 
+                "AttributeType": "S"
+            }
+        ], 
+        "ProvisionedThroughput": {
+            "NumberOfDecreasesToday": 0, 
+            "WriteCapacityUnits": 1, 
+            "ReadCapacityUnits": 1, 
+            "LastDecreaseDateTime": 1665153095.312
+        }, 
+        "TableSizeBytes": 110, 
+        "TableName": "voters", 
+        "TableStatus": "ACTIVE", 
+        "TableId": "442bf30a-3b0c-4ad0-9afd-b02290df693b", 
+        "KeySchema": [
+            {
+                "KeyType": "HASH", 
+                "AttributeName": "voterId"
+            }
+        ], 
+        "ItemCount": 2, 
+        "CreationDateTime": 1665152468.701
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "Table": {
+        "TableArn": "arn:aws:dynamodb:us-east-1:938697498897:table/statements", 
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "creatorId", 
+                "AttributeType": "S"
+            }, 
+            {
+                "AttributeName": "statementId", 
+                "AttributeType": "N"
+            }
+        ], 
+        "ProvisionedThroughput": {
+            "NumberOfDecreasesToday": 0, 
+            "WriteCapacityUnits": 1, 
+            "ReadCapacityUnits": 1, 
+            "LastDecreaseDateTime": 1664462144.467
+        }, 
+        "TableSizeBytes": 953, 
+        "TableName": "statements", 
+        "TableStatus": "ACTIVE", 
+        "TableId": "198bbf64-061b-46e6-a999-7bd0b6b97a2f", 
+        "KeySchema": [
+            {
+                "KeyType": "HASH", 
+                "AttributeName": "creatorId"
+            }, 
+            {
+                "KeyType": "RANGE", 
+                "AttributeName": "statementId"
+            }
+        ], 
+        "ItemCount": 5, 
+        "CreationDateTime": 1664461421.659
+    }
+}
